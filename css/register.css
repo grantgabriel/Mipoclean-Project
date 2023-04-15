@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .wrap {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #89cbeb;
+    /* background-image: url("./bub/4.png"); */
+
+}
+  
+  .register {
+    width: 30%;
+    height: 600px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.bubble{
+    width: 200px;
+    height: 260px;
+    border-radius: 100%;
+    position: absolute;
+    top: -25px;
+    left: 380px;
+}
+
+.bubble3{
+    width: 200px;
+    height: 170px;
+    border-radius: 100%;
+    position: absolute;
+    top: 625px;
+    left: 704px;
+}
+
+  .tittle {
+    color: #82AAE3;
+    font-size: 3em;
+    font-family: 'Rubik Bubbles', cursive;
+  }
+  .register_name {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .register_name input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+
+  .register_id {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .register_id input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+  
+  .register_pw {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .register_pw input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+  
+  .register_pw_confirm {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .register_pw_confirm input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+
+  .phonenumber {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .phonenumber input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
+    outline: none;
+  }
+
+  .submit {
+    margin-top: 10px;
+    width: 60%;
+  }
+  .submit input {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    background: linear-gradient(to left, rgb(130, 170, 227), rgb(145, 216, 228) ); 
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
